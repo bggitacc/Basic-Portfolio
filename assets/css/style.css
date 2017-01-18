@@ -1,15 +1,13 @@
 
 
 body {
-          margin: auto;
+          margin: 0 auto;
           width: 960px;
           font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
           font-size: 18px;
-          color: #333333;
-          line-height: 150%;
-          background: url(http://www.myaucdata.com/bootcamp/bg-5.jpg);
-          Background-size: cover;
-  }
+          background: url('http://www.myaucdata.com/bootcamp/bg-2.jpg'); 
+          
+}
 
 h1 {
           margin: 0;
@@ -47,7 +45,6 @@ a:hover {
           opacity: .5;
           text-decoration: underline;
           font-size: 20px;
-
 }
 
 
@@ -55,154 +52,104 @@ a:hover {
 
 hr {
           width: 90%;
-          border: 1px solid #eee;
+          border: 1px solid #ddd;
           margin-bottom: 10px;
 }
 
-input {
-  width: 98%;
-  height: 30px;
-  display: inline-block;
-  border: 1px solid #ddd;
-  ;
+header {
+          max-width: 952px;
+          margin-top: 20px;
+          background-color: #fff;
+          display: relative;
+          height: 100px;
+          border: 4px solid #cccccc;
+}
+
+main {
+          max-width: 952px;
+          background-color: #fff;
+          display: inline-block;
+          border: 4px solid #dddddd;
+          
+}
+
+footer {
+     
+          width: 960px;
+          text-align: center;
+          display: static;
+          color: #fff;
+          border-top: 8px solid #4aaaa5;
+          background-color: #666;
+          height: 80px;
+          
+          
 }
 
 textarea {
-      border: 1px solid #ddd;
-      width: 98%;
-      height: 120px;
-
+          border: 1px solid #ddd;
+          width: 98%;
+          height: 120px;
 }  
 
-#header {
-          margin: auto;
-          width: 960px;
-          margin-top: 20px;
-          padding-top: 10px;
-          height: 70px;
-          background: #fff;
-          border-color: 5px solid #cccccc;
-          color: #777;
+input {
+          width: 98%;
+          height: 30px;
+          display: inline-block;
+          border: 1px solid #ddd;
 }
 
-#container {
-          width: 954px;
-          height: 610px;
-          border: 3px solid #ddd;
-          margin: 0 auto;
-          background: url('http://www.myaucdata.com/bootcamp/bg-2.jpg'); 
+nav {
+
+          display: relative;
 }
 
-#footer {
-          color: #fff;
-          border-top: 5px solid #4aaaa5;
-          height: 50px;
-          background: #666;
-          text-align: center;
-          width: 960px;
-          padding-top: 20px;
-          margin-bottom: 20px;
-          font-size: 10px;
-          
+.container {
+          width: 956px;
+          display: inline-block;
 
-          
 }
 
-#main-bio {
-          width: 58%;
-          background: #fff;
-          margin-left: 30px;
-          margin-top: 30px;
-          margin-bottom: 30px;
-          border: 3px solid #ddd;
-          float:left;
-          padding: 15px;
+#content-left {
+          width: 606px;
+          border: 2px solid #ddd;
+          float: left;
+          display: inline-block;
+          background-color: #fff;
           text-align: justify;
-          color: #777;
-          font-size: 16px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 10px;
           border-radius: 5px 5px 5px 5px;
-
+          color: #777;
+          line-height: 150%;
 }
 
-#contact-info {
-
-          width: 25.5%;
-          padding: 10px 10px 10px 10px;
-          margin-right: 30px;
-          margin-top: 30px;
-          background: #fff;
+#content-right {
+          width: 256px;
+          border: 2px solid #ddd;
           float: right;
-          border: 3px solid #ddd;
-          margin-top: 30px;
-          margin-right: 30px;
+          padding: 5px;
+          padding-top: 28px;
+          padding-bottom: 28px;
+          display: inline-block;
+          background-color: #fff;
+          margin-right: 10px;
+          margin-top: 20px;
           border-radius: 5px 5px 5px 5px;
-  
-  
-
-
 }
 
 #bio-image {
-  
-          width: 200px;
+          display: inline-block;
           float: left;
-          margin-top: 8px;
-          margin-right: 15px;
-          border: 3px solid #ddd;
-
-  
-  
-
-}
-
-#port-container {
-          width: 954px;
-          height: 940px;
-          border: 3px solid #ddd;
-          margin: 0 auto;
-          background: url('http://www.myaucdata.com/bootcamp/bg-2.jpg'); 
-}
-
-#portfolio {
-
-          width: 58%;
-          background: #fff;
-          margin-left: 30px;
-          margin-top: 30px;
-          margin-bottom: 30px;
-          border: 3px solid #ddd;
-          float:left;
-          padding: 15px;
-          text-align: justify;
-          color: #777;
-          font-size: 16px;
+          width: 200px;
+          margin-right: 10px;
+          border: 2px solid #dddddd;
           border-radius: 5px 5px 5px 5px;
-
-}
-
-#contact-form {
-          width: 90%;
-          background: #fff;
-          margin-left: 10px;
-          margin-top: 30px;
-          margin-bottom: 30px;
-          
-          float:left;
-          padding: 15px;
-          text-align: justify;
-          color: #777;
-          font-size: 16px;
-          
-
-}
-
-#contact-container {
-          width: 954px;
-          height: 580px;
-          border: 3px solid #ddd;
-          margin: 0 auto;
-          background: url('http://www.myaucdata.com/bootcamp/bg-2.jpg');
-
 }
 
 #submit-button {
@@ -212,34 +159,60 @@ textarea {
           color: #fff;
           padding: 10px;
           border: 0px;
-          
+}
 
+
+.me {
+          width: 200px;
+          background: #4aaaa5;
+          position: inline-block;
+          margin-top: 26px;
+          margin-left: 40px;
+          margin-bottom: -20px;
+          padding: 21px;
+          border-radius: 5px 5px 0px 0px;
+          top: 46px;
+          display: inline-block;
+}
+
+.nav-bar {
+          position: inline-block;
+          float: right;
+          margin-right: 30px;
+          margin-top: 40px;
+          top: 58px;
+          color: #777;
+}
+
+.social {
+          display:block;
+          padding-left: 50px;
+          padding-top: 10px;
+
+ 
+}
+
+#copyright-text {
+
+         margin-top: 30px;
+         font-size: 15px;
+
+          
+          
 }
 
 .port-box-l {
           width: 240px;
           height: 250px;
           background: #ddd;
-          margin: 5px;
-          display: block;
-          float: left;
+          margin-left: 20px;
+          
+          display: inline-block;
+          
           border: 3px solid #ddd;
           border-radius: 5px 5px 5px 5px;
           
 
-
-}
-
-.port-box-r {
-          width: 240px;
-          height: 250px;
-          background: #ddd;
-          margin: 5px;
-          display: relative;
-          float: right;
-          border: 3px solid #ddd;
-          border-radius: 5px 5px 5px 5px;
-          
 
 }
 
@@ -256,51 +229,7 @@ textarea {
 }
 
 .box-img {
-  display: block;
-  width: 240px;
-
-}
-
-
-.me {
-          width: 200px;
-          background: #4aaaa5;
-          position: relative;
-          left: 130px;
-          padding: 21px;
-          border-radius: 5px 5px 0px 0px;
-}
-
-.nav-bar {
-
-          position: relative;
-          left: 60%;
-          bottom: 70px;
-          color: #777;
-}
-.img-with-text {
-          text-align: justify;
-          width: 100%;
-   
-
-}
-
-.contact-text {
-          text-align: left;
-          width: 200px;
-          padding: 40px;
-          border-radius: 5px;
-          margin-top: 20px;
           display: block;
-
-
+          width: 240px;
+          height: 250px;
 }
-.social {
-          display:block;
-          padding-left: 50px;
-
- 
-}
-
-
-
